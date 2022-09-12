@@ -186,6 +186,15 @@
   (block_comment)
 ] @comment
 
+;;; Spelling queries
+
+[
+  (line_comment)
+  (block_comment)
+] @spell
+
+(string_literal) @spell
+
 ;;; Punctuation
 
 (quote_expression ":" @symbol)

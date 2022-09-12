@@ -168,6 +168,7 @@
 
 (comment) @comment
 (comment) @spell
+(string_literal) @spell
 
 ;; Parameters
 (parameter_declaration
